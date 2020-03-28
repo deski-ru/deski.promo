@@ -11,8 +11,9 @@
 <link href="static/css/custom.css" rel="stylesheet">
 </head>
 <body>
-    <main class="mdb-skin mt-4 pt-5 pb-3">
-        <nav data-test="navbar" class="navbar-dark fixed-top double-nav navbar navbar-expand" role="navigation">
+    <div id="root">
+        <div id="apppage">
+            <nav data-test="navbar" class="navbar-dark fixed-top double-nav navbar navbar-expand" role="navigation">
     <div data-test="container" class="container">
         <a aria-current="page" class="navbar-brand active" data-test="navbar-brand" href="/">
             <i data-test="fa" fas="true" title="Deski.ru - система HelpDesk" class="fa fa-envelope fa-2x"></i>
@@ -47,14 +48,36 @@
         </ul>
     </div>
 </nav>
-        
-        <div class="container">
             
-
+<div data-test="view" class="view">
+    <div data-test="mask" class="mask d-flex justify-content-center align-items-center gradient">
+        <div data-test="container" class="container">
+            <div data-test="row" class="row">
+                <div class="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
+                    <h1 class="h1-responsive font-weight-bold mt-sm-5">Deski.ru - система HelpDesk </h1>
+                    <hr class="hr-light">
+                    <h6 class="mb-4">
+                        Общение с клиентами в едином кабинете по электронной почте, WhatsApp, Viber, Telegram, чат на сайте. Соберите все сообщения от клиентов в одном месте.
+                    </h6>
+                    <a data-test="button" role="button" class="btn-white btn Ripple-parent  button-custom rounded" href="https://lk.deski.ru/#/account/create/">
+                        <i data-test="fa" class="fa fa-paper-plane mr-1"></i> Начать пользоваться<div data-test="waves" class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
+                    </a>
+                    <div class="d-md-none">или</div>
+                    <a data-test="button" role="button" class="btn-outline-white btn Ripple-parent  button-outline-custom rounded" href="https://lk.deski.ru/#/account/login/">
+                        <i data-test="fa" class="fa fa-sign-in-alt mr-1"></i> Войти<div data-test="waves" class="Ripple Ripple-outline " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
+                    </a>
+                </div>
+                <div data-test="col" class="col-md-6 col-xl-5 mt-xl-5">
+                    <img src="img/promo-main-img.png" alt="" class="img-fluid d-none d-md-inline">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
         </div>
-    </main>
+    </div>
 
     <script type="text/javascript" src="static/js/site.js"></script>
 
