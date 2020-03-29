@@ -1,7 +1,12 @@
 ﻿.pricing-card .price .number::before {
-    content: "\20BD";
+    content: "";
 }
 
 .pricing-card .price .number:after {
-    content: "/мес.";
+    content: "";
+}
+
+.pricing-card .price .number font {
+    font-size: 40%;
+    margin-left: 3px;
 }
