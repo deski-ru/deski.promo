@@ -1,5 +1,5 @@
 ﻿.pricing-card .price .number::before {
-    content: "₽";
+    content: "\20BD";
 }
 
 .pricing-card .price .number:after {
