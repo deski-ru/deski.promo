@@ -1,1 +1,7 @@
-﻿
+﻿.pricing-card .price .number::before {
+    content: "₽";
+}
+
+.pricing-card .price .number:after {
+    content: "/мес.";
+}
