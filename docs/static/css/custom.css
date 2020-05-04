@@ -5,3 +5,8 @@
 .pricing-card .price .number:after {
     content: "/мес.";
 }
+
+.height-pages-top {
+    background-image: none!important;
+    height: 58px!important;
+}
