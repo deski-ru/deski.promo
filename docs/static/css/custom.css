@@ -11,8 +11,10 @@
     height: 58px!important;
 }
 
-.h1-pages {
-    margin-bottom: 1.2rem;
+@media (max-width: 992px) {
+    .height-pages-top {
+        height: 50px!important;
+    }
 }
 
 .h4-pages {
