@@ -10,3 +10,22 @@
     background-image: none!important;
     height: 58px!important;
 }
+
+.h1-pages {
+    margin-bottom: 1.2rem;
+}
+
+.h4-pages {
+    margin-top: 1.5rem;
+}
+
+.p-pages {
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.a-article {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    display: block;
+}
