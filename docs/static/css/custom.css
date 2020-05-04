@@ -24,6 +24,10 @@
     margin-top: 1.2rem;
 }
 
+.p-pages img {
+    border: 1px solid #ccc;
+}
+
 .a-article {
     margin-bottom: 0.2rem;
     margin-top: 0.2rem;
