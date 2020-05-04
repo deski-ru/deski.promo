@@ -26,6 +26,8 @@
 
 .p-pages img {
     border: 1px solid #ccc;
+    width: 100%;
+    max-width: 600px;
 }
 
 .a-article {
