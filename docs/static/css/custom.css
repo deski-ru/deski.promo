@@ -32,6 +32,10 @@
     max-width: 600px;
 }
 
+.p-pages img.big {
+    max-width: 1024px;
+}
+
 .a-article {
     margin-bottom: 0.2rem;
     margin-top: 0.2rem;
