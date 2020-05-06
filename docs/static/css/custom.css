@@ -41,3 +41,8 @@
     margin-top: 0.2rem;
     display: block;
 }
+
+#footer a {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
