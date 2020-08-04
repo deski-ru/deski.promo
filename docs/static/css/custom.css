@@ -1,9 +1,14 @@
 ﻿.pricing-card .price .number::before {
-    content: "\20BD";
+    content: "за";
+    margin-left: -1.9rem;
+}
+
+.pricing-card .price .number-not-free::before {
+    content: "от";
 }
 
 .pricing-card .price .number:after {
-    content: "/мес.";
+    content: "руб./мес.";
 }
 
 .height-pages-top {
