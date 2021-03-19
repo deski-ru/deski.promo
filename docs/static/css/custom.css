@@ -55,3 +55,12 @@
 .min-height-520 {
   min-height: 520px;
 }
+
+table.table th {
+    font-size: 120%;
+    padding-top: 30px;
+}
+
+table.table td {
+    font-size: 100%;
+}
